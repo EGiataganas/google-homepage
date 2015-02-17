@@ -2,10 +2,10 @@ body {
 	background-color: white;
 }
 
-
 .fl{
 	float:left;
 }
+
 .fr{
 	float:right;
 }
@@ -27,6 +27,7 @@ body {
 }
 .main-header a:hover {
 	color: #404040;
+	text-decoration: underline;
 }
 
 .img-box{
@@ -46,6 +47,21 @@ a.sign-in{
 	padding: 0 10px;
 	border-radius: 2px;
 }
+
+a.sign-in:hover {
+	color: #fff;
+	box-shadow: 0 1px 0 rgba(0,0,0,.15);
+}
+
+.inner {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.inner a{
+	padding: 0 5px;
+}
+
 .container {
 	position: relative;
 	margin-top: 125px;
@@ -61,41 +77,16 @@ a.sign-in{
   margin: 50px 0 0 -266px;
 }
 
-.main-footer {
-	background: #f2f2f2;
-	border-top: 1px solid #e4e4e4;
-	line-height: 40px;
-	font-size: 12pt;
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-}
-
-.inner {
-	padding-left: 30px;
-	padding-right: 30px;
-}
-.inner a{
-	padding: 0 5px;
-}
-.main-footer a{
-	color: #666;
-	text-decoration: none;
-	font-size: small;
-}
-.main-footer a:hover {
-	color: #666;
-}
-
 .logo{
   width: 269px;
   height: 100px;
   display: block;
   margin: 0 auto;
 }
+
 .input{
-	 width: 538px;
-	 font-size:14pt;
+	width: 538px;
+	font-size:14pt;
 }
 
 .center {
@@ -114,6 +105,27 @@ a.sign-in{
 	margin: 15px 5px;
 	border-radius: 2px;
 	border: 1px solid #d4d4d4;
+}
+
+.main-footer {
+	background: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	line-height: 40px;
+	font-size: 12pt;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.main-footer a{
+	color: #666;
+	text-decoration: none;
+	font-size: small;
+}
+
+.main-footer a:hover {
+	color: #666;
+	text-decoration: underline;
 }
 
 ul{
